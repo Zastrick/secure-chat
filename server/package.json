@@ -1,0 +1,13 @@
+{
+  "name": "securechat-tabasco-server",
+  "version": "1.0.0",
+  "description": "Servidor relay para mensajeria cifrada E2E (alternativa a bloqueo de lineas telefonicas)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tunnel": "npx --yes localtunnel --port 8787"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
